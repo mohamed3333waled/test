@@ -4,8 +4,64 @@
  <link rel="icon" type="image/png" href="Img/favicon.ico">
   <meta charset="UTF-8">
   <title>Error 404</title>
+  <style>
+    * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bd-purple: #4c0bce;
+    --bd-violet: #712cf9;
+    --red-color: #B41F24;
+    --green-color: #0F3B60;
+    --bd-purplergb: rgb(76, 11, 206);
+    --bd-violetrgb: rgb(113, 44, 249);
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 10% auto;
+    text-align: center;
+}
+
+.Content_404 h1 {
+    font-size: 5rem;
+}
+.Content_404 h1::first-letter{
+    color: var(--red-color);
+}
+.Content_404 h1 :first-child{
+    color: var(--green-color);
+}
+.Content_404 h1 :nth-child(2){
+    color: var(--red-color);
+}
+.Content_404 h1 :last-child{
+    color: var(--green-color);
+}
+
+.Content_404 p {
+    color: #a2a2a2;
+    font-size: 1.5rem;
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+.Content_404 button {
+    font-size: 1.1rem;
+    margin: 20px 0;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+  </style>
   <!-- 404 Style -->
-  <link rel="stylesheet" href="style/404.css">
   <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
     rel="stylesheet">
 </head>
