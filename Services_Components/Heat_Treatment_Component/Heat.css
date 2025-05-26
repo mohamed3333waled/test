@@ -1,0 +1,137 @@
+/* Global Components */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bd-purple: #4c0bce;
+    --bd-violet: #712cf9;
+    --red-color: #B41F24;
+    --green-color: #0F3B60;
+    --bd-purplergb: rgb(76, 11, 206);
+    --bd-violetrgb: rgb(113, 44, 249);
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: "Mulish", sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    display: block;
+    /* color: #000; */
+}
+
+.container {
+    padding: 0;
+    margin: 0 auto;
+}
+
+/* End Global Components */
+/* Start Heat_Treatment */
+
+.Heat_Treatment {
+    margin-top: 94.08px;
+
+}
+
+.Heat_Treatment .Title_Section {
+    padding: 35px 0;
+    background-color: var(--red-color);
+    margin-bottom: 30px;
+}
+
+@media(max-width : 568px) {
+    .Heat_Treatment .Title_Section {
+        margin-bottom: 20px;
+    }
+}
+
+.Heat_Treatment .Title_Section h5 {
+    font-weight: 600;
+    line-height: 1.5em;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+
+.Heat_Treatment .nav_Section ul {
+    font-weight: 600;
+    margin: 0;
+    display: flex;
+    font-size: .8rem;
+    padding-left: 0;
+    padding: 10px 0 !important;
+    border-bottom: 1px dotted #eeeeee;
+}
+
+.Heat_Treatment .nav_Section ul li {
+    padding-right: 10px;
+}
+
+.Heat_Treatment .nav_Section ul li:not(:first-child) {
+    color: var(--green-color)
+}
+
+
+.Heat_Treatment .nav_Section ul li a {
+    text-transform: uppercase;
+    color: var(--red-color) !important;
+}
+
+.Heat_Treatment .nav_Section ul li a:hover {
+    text-decoration: underline !important;
+    color: var(--green-color) !important;
+}
+
+.Heat_Treatment_Content {
+    margin: 35px 0;
+}
+
+.Heading {
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: var(--green-color);
+    font-weight: 600;
+    line-height: 1.5em;
+    color: #fff;
+    text-align: center;
+}
+
+.Heat_Treatment_Content .Card {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #666;
+    font-size: 13px;
+}
+
+.Heat_Treatment_Content .Card .Img_Card {
+    max-width: 140px;
+}
+
+@media(max-width : 767px) {
+    .Heat_Treatment_Content .Card {
+        gap: 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .Heat_Treatment_Content .Card .Img_Card {
+        flex: 1;
+    }
+}
+
+.Heat_Treatment_Content .Card p {
+    margin: 0 !important;
+}
+
+/* End Heat_Treatment */

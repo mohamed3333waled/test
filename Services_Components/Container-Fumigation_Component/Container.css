@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bd-purple: #4c0bce;
+    --bd-violet: #712cf9;
+    --red-color: #B41F24;
+    --green-color: #0F3B60;
+    --bd-purplergb: rgb(76, 11, 206);
+    --bd-violetrgb: rgb(113, 44, 249);
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: "Mulish", sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    display: block;
+}
+
+.container {
+    padding: 0;
+    margin: 0 auto;
+}
+
+/* End Global Components */
+.Container_Fum {
+    margin-top: 94.08px;
+
+}
+
+.Container_Fum .Title_Section {
+    user-select: none;
+    padding: 35px 0;
+    background-color: var(--red-color);
+    margin-bottom: 30px;
+}
+
+@media(max-width : 568px) {
+    .Container_Fum .Title_Section {
+        margin-bottom: 20px;
+    }
+}
+
+.Container_Fum .Title_Section h5 {
+    font-weight: 600;
+    line-height: 1.5em;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    user-select: none;
+}
+
+
+.Container_Fum .nav_Section ul {
+    font-weight: 600;
+    margin: 0;
+    display: flex;
+    font-size: .8rem;
+    padding-left: 0;
+    padding: 10px 0 !important;
+    border-bottom: 1px dotted #eeeeee;
+}
+
+.Container_Fum .nav_Section ul li {
+    padding-right: 10px;
+}
+
+.Container_Fum .nav_Section ul li:not(:first-child) {
+    color: var(--green-color)
+}
+
+
+.Container_Fum .nav_Section ul li a {
+    text-transform: uppercase;
+    color: var(--red-color) !important;
+}
+
+.Container_Fum .nav_Section ul li a:hover {
+    text-decoration: underline !important;
+    color: var(--green-color) !important;
+}
+
+.Fumigation_Content {
+    margin: 35px 0;
+    user-select: none;
+}
+
+.Heading {
+        user-select: none;
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: var(--green-color);
+    font-weight: 600;
+    line-height: 1.5em;
+    color: #fff;
+    text-align: center;
+}
+
+.Container_Fum_Content .Card {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #666;
+    font-size: 13px;
+}
+
+.Container_Fum_Content .Card .Img_Card {
+    max-width: 140px;
+}
+
+@media(max-width : 767px) {
+    .Container_Fum_Content .Card {
+        gap: 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .Container_Fum_Content .Card .Img_Card {
+        flex: 1;
+    }
+}
+
+.Container_Fum_Content .Card p {
+    margin: 0 !important;
+}

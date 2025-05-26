@@ -1,0 +1,61 @@
+/* Start Nav Bar  */
+:root {
+    --bd-purple: #4c0bce;
+    --bd-violet: #712cf9;
+    --red-color: #B41F24;
+    --green-color: #0F3B60;
+    --bd-purplergb: rgb(76, 11, 206);
+    --bd-violetrgb: rgb(113, 44, 249);
+}
+
+
+
+
+
+.navbar {
+    padding: 10px 50px !important;
+    font-size: 1.1rem;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.dropdown-menu a {
+    border-radius: 2px;
+}
+
+.dropdown-menu a:hover {
+    background-color: var(--red-color);
+    color: #fff !important;
+}
+
+@media(max-width: 768px) {
+    .navbar {
+        padding: 10px 10px !important;
+    }
+}
+
+.navbar-toggler,
+.btn-close {
+    box-shadow: none !important;
+}
+
+.close-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.close-btn:hover {
+    color: red;
+}
+
+.parent_logo {
+    width: 130px !important;
+}
+
+.parent_logo_slide {
+    width: 100px;
+}
+
+/* End Navbar */

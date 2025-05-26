@@ -1,0 +1,152 @@
+/* Global Components */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bd-purple: #4c0bce;
+    --bd-violet: #712cf9;
+    --red-color: #B41F24;
+    --green-color: #0F3B60;
+    --bd-purplergb: rgb(76, 11, 206);
+    --bd-violetrgb: rgb(113, 44, 249);
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: "Mulish", sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    display: block;
+    /* color: #000; */
+}
+
+.container {
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+
+
+.About {
+    user-select: none;
+    margin-top: 94.08px;
+
+}
+
+.About .Title_Section {
+    padding: 35px 0;
+    background-color: var(--red-color);
+    margin-bottom: 30px;
+}
+
+@media(max-width : 568px) {
+    .About .Title_Section {
+        margin-bottom: 20px;
+    }
+}
+
+.About .Title_Section h5 {
+    font-weight: 600;
+    line-height: 1.5em;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+
+.About .nav_Section ul {
+    font-weight: 600;
+    margin: 0;
+    display: flex;
+    font-size: .8rem;
+    padding-left: 0;
+    padding: 10px 0 !important;
+    border-bottom: 1px dotted #eeeeee;
+}
+
+.About .nav_Section ul li {
+    padding-right: 10px;
+}
+
+.About .nav_Section ul li:not(:first-child) {
+    color: var(--green-color)
+}
+
+
+.About .nav_Section ul li a {
+    text-transform: uppercase;
+    color: var(--red-color) !important;
+}
+
+.About .nav_Section ul li a:hover {
+    text-decoration: underline !important;
+    color: var(--green-color) !important;
+}
+
+/* Parent Img */
+.Parent_Img {
+    margin-top: 50px !important;
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+
+.Parent_Img img {
+    max-height: 400px;
+    border-radius: 5px;
+}
+
+@media(max-width: 567px) {
+.Parent_Img {
+    max-width : 100%
+}
+.Parent_Img img {
+    max-height: 100%;
+    border-radius: 5px;
+}
+}
+.About_Content {
+    padding: 20px;
+    border-bottom: 5px solid var(--green-color);
+    background: #f8f8f8;
+}
+
+.About_Content .Title_Section {
+    padding: 10px 0;
+    background-color: var(--red-color);
+    margin: 20px 0;
+}
+
+
+.About_Content .Title_Section h3 {
+    /* font-weight: 600; */
+    line-height: 0.8rem ;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+@media(max-width : 768px) {
+    .About .Title_Section h3 {
+        line-height: 1.5rem ;
+    }
+}
+
+.dis_About {
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.6em;
+    color: #666;
+
+}
+
+/* End Global Components */
